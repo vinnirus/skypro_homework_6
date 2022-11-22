@@ -3,7 +3,7 @@ import random
 
 def read_words_from_file(path_to_file='words.txt'):
     """
-    Function is reading a text file and returning the list of lines
+    The function is reading a text file and returning the list of lines
     """
     with open(path_to_file, 'rt') as words_file:
         return words_file.readlines()
