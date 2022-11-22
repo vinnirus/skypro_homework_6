@@ -1,5 +1,5 @@
 # skypro_homework_6
-homework for lesson 6. local python and files
+## Домашняя работа для урока 6. Локальный python и файлы.
 
 
 **Шаг 1.** Создайте файл `words.txt`, где будут храниться английские слова. Например, такой:
