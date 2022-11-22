@@ -1,0 +1,6 @@
+Nikita,30
+Petr,10
+Nikita,20
+Nikita,40
+Nikita,0
+Nikita,0
