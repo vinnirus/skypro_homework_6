@@ -4,3 +4,4 @@ Nikita,20
 Nikita,40
 Nikita,0
 Nikita,0
+Nikita,40

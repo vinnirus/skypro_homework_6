@@ -5,7 +5,7 @@ def read_words_from_file(path_to_file='words.txt'):
     """
     The function is reading a text file and returning the list of lines
     """
-    with open(path_to_file, 'rt') as words_file:
+    with open(path_to_file, 'rt', encoding='utf-8') as words_file:
         return words_file.readlines()
 
 
@@ -13,7 +13,7 @@ def get_record_for_player(current_player, path_to_file='history.txt'):
     """
     The function is returning best score for current player
     """
-    with open(path_to_file, 'rt') as history_file:
+    with open(path_to_file, 'rt', encoding='utf-8') as history_file:
         record_of_player = 0
         count_of_rounds = 0
         for line in history_file:
@@ -33,7 +33,7 @@ def save_round_result_to_file(current_player, current_game_score, path_to_file='
     """
     The function is appending score of current round for current player in text file
     """
-    with open(path_to_file, 'a') as history_file:
+    with open(path_to_file, 'a', encoding='utf-8') as history_file:
         history_file.write(f'{current_player},{current_game_score}\n')
 
 
